@@ -5,7 +5,8 @@ from ui_mainwindow import Ui_MainWindow
 import sys
 
 def hello():
-    print("a")
+    window.ui.spinBox.setValue(0)
+    window.ui.spinBox_2.setValue(0)
 
 class MainWindow(QMainWindow):
     def __init__(self):
